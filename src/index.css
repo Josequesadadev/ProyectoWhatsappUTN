@@ -197,6 +197,14 @@ a {
   background-color: #202c33;
 }
 
+.message-time {
+  display: block;
+  font-size: 11px;
+  color: #b1b3b5;
+  text-align: right;
+  margin-top: 2px;
+}
+
 .user-message {
   background-color: #005c4b;
   color: #e9edef;
@@ -218,4 +226,79 @@ a {
 
 .botton-send:hover {
   background-color: #128c7e;
+}
+
+/* --- Resposives --- */
+
+@media (max-width: 900px) {
+  .div-header,
+  .hero-div,
+  .chat-messages {
+    padding-left: 10px ;
+    padding-right: 10px ;
+  }
+  .div-header {
+    height: 60px;
+    padding: 8px 10px ;
+  }
+  .img-contact-size,
+  .chat-header .img-contact-style {
+    width: 40px;
+    height: 40px;
+  }
+  .h2-chat {font-size: 20px;
+  }
+  .name-contacts {
+    font-size: 15px;
+  }
+  .writing-bar {
+    height: 32px;
+    font-size: 14px;
+  }
+  .botton-send {
+    font-size: 18px;
+    height: 32px;
+    padding: 0 10px;
+  }
+  .message {
+    font-size: 15px;
+    padding: 7px 10px;
+    max-width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .div-header,
+  .hero-div,
+  .chat-messages {
+    padding-left: 5px ;
+    padding-right: 5px ;
+  }
+  .div-header {
+    height: 50px;
+    padding: 6px 5px ;
+  }
+  .img-contact-size,
+  .chat-header .img-contact-style {
+    width: 32px;
+    height: 32px;
+  }
+  .h2-chat {
+    font-size: 17px;
+  }
+  .name-contacts {font-size: 13px;
+  }
+  .writing-bar {
+    height: 28px;
+    font-size: 13px;
+  }
+  .botton-send {
+    font-size: 16px;
+    height: 28px;
+    padding: 0 7px;
+  }
+  .message {
+    font-size: 13px;
+    padding: 5px 7px;
+    max-width: 98%;
+  }
 }
