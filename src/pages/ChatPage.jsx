@@ -14,9 +14,9 @@ const initialMessagesByContact = {
     { id: 3, text: "SIUUUU", fromUser: true, time: "15:32" },
   ],
   3: [
-    { id: 1, text: "Neymar, ¿vas a la fiesta?", fromUser: false, time: "14:10" },
-    { id: 2, text: "¡Ni loco me pierdo esa fiesta! Voy a decir que estoy lesionado", fromUser: true, time: "14:11" },
-    { id: 3, text: "A las 11pm, no faltes.", fromUser: false, time: "14:12" },
+    { id: 1, text: "Neymar, ¿vas a la fiesta?", fromUser: true, time: "14:10" },
+    { id: 2, text: "¡Ni loco me pierdo esa fiesta! Voy a decir que estoy lesionado", fromUser: false, time: "14:11" },
+    { id: 3, text: "A las 11pm, no faltes.", fromUser: true, time: "14:12" },
   ],
 };
 
