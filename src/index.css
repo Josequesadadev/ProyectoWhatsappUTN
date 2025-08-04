@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e9edef;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111b21;
+}
+
+a {
+  text-decoration: none;
+  color: #25d366;
+}
+
+
+/*--------- LISTA DE CONTACTOS ---------*/
+.hero-div {
+  padding: 30px 33px;
+  background-color: #111b21;
+}
+
+.h2-chat {
+  color: #e9edef;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.search-icon-text {
+  display: flex;
+  align-items: center;
+  border: 1px solid #202c33;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #2a3942;
+}
+
+.class-icon-black {
+  color: #e9edef;
+  margin: 0 10px;
+}
+
+.search {
+  color: #e9edef;
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  background: transparent;
+}
+
+/* Estilos para el item de contacto */
+.div-content-name-img {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 0px;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease;
+  border-radius: 10px;
+  background: #202c33;
+  color: #e9edef;
+}
+
+.div-content-name-img:hover {
+  background-color: #2a3942;
+}
+
+.info-contact {
+  display: flex;
+  align-items: center;
+  color: #e9edef;
+}
+
+.img-contact-size {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #25d366;
+}
+
+.name-contacts {
+  color: #e9edef;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+.last-seen {
+  color: #e9edef;
+}
+
+/*--------- HEADER ---------*/
+.div-header {
+  width: 100%;
+  height: 70px;
+  background-color: #202c33;
+  color: #e9edef;
+  padding: 10px 25px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.div-logo-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #25d366;
+}
+
+.p-whatsapp {
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #25d366;
+}
+
+.class-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #e9edef;
+}
+
+.icons {
+  display: flex;
+}
+
+/*--------- PÁGINA DE CHAT INDIVIDUAL ---------*/
+.chat-page-body {
+  background-color: #111b21;
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header específico del chat */
+.chat-header .name-contacts {
+  color: #e9edef;
+}
+
+.chat-header .img-contact-style {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #25d366;
+}
+
+/* Barra de chat inferior */
+.content-barChat {
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  background-color: #202c33;
+  border-top: 1px solid #2a3942;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.writing-bar {
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 15px;
+  margin: 0 10px;
+  color: #e9edef;
+  background: #2a3942;
+}
+
+
+/* --- Estilos para la lista de mensajes --- */
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: #111b21;
+}
+
+.message {
+  padding: 8px 12px;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  color: #e9edef;
+  background-color: #202c33;
+}
+
+.user-message {
+  background-color: #005c4b;
+  color: #e9edef;
+  align-self: flex-end;
+}
+
+/* --- Ajuste al botón de enviar --- */
+.botton-send {
+  height: 35px;
+  background-color: #25d366;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; 
+  color: #111b21;
+  padding: 0 15px;
+  transition: background 0.2s;
+}
+
+.botton-send:hover {
+  background-color: #128c7e;
+}
